@@ -31,7 +31,7 @@
  * Must write the meaningful function name
  * Using isOdd Function
  */
-    $z=34;
+    $z=36;
     if(isOdd($z)){  //here, $z argument
 
         // echo "<pre>";
@@ -39,6 +39,8 @@
         // echo "</pre>";
 
         echo "{$z} is an Odd number";
+        echo "<br>";
+        die("hello world");
     }else
         // echo "<br>";
         // echo "<pre>";
@@ -47,3 +49,5 @@
         // echo "<br>";
 
         echo "{$z} is an Even number";
+        echo "<br>";
+        die("goodbye world");
