@@ -4,7 +4,7 @@
  * Determine the argument is even or odd
  */
 function evenOrOdd($n)
-{ //here, $n paramater
+{ //here, $n parameter
     if ($n % 2 == 0) {
         return true;
     }
@@ -21,7 +21,7 @@ function evenOrOdd($n)
  */
 
 function isEven($n)
-{ //here, $n paramater
+{ //here, $n parameter
     if ($n % 2 == 0) {
         return true;
     }
@@ -33,7 +33,7 @@ function isEven($n)
  */
 
 function isOdd($n)
-{ //here, $n paramater
+{ //here, $n parameter
     if ($n % 2 == 0) {
         return false;
     }
@@ -41,7 +41,7 @@ function isOdd($n)
 }
 
 /**
- * Must write the meaningful function name
+ * Paremeter type check
  * isFactorial()
  */
 
@@ -56,6 +56,16 @@ function isFactorial(int $a)
         // var_dump($result);
         // echo "</br>";
     }
-    echo __FILE__ . ' : ' . __LINE__;
+    //echo __FILE__ . ' : ' . __LINE__;
     return $result;
+}
+
+/**
+ * pass the deafult value of a function
+ * Set default parameter value
+ * serveFood() function
+ */
+
+function serveFood($foodType="coffee",$numberOfItems="2 cup"){
+ echo "{$numberOfItems} of {$foodType} has been served";
 }

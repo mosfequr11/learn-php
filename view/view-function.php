@@ -2,11 +2,33 @@
 require_once "../function/function.php";
 
 
+
 /**
  * Calculating Factorial Number
+ * 
+ */
+$j= '5 cup';
+$k= 'Tea';
+serveFood($k,$j);
+echo "<br>";
+serveFood('','2 Plates');
+echo "<br>";
+serveFood('Rice','2 Plates');
+echo "<br>";
+serveFood('Rice');
+
+echo "<hr>";
+echo "<br>";
+
+/**
+ * Calculating Factorial Number
+ * 
  */
 
 $t = 6;
+// echo $t;
+// echo __FILE__ . ' : ' . __LINE__;
+//  echo "</br>";
 echo "{$t} factorial is" . isFactorial($t);
 echo "<hr>";
 echo "<br>";
