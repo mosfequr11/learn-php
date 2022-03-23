@@ -1,5 +1,5 @@
 <?php
-    require_once "function/function.php";
+    require_once "../function/function.php";
 /**
  * Determine the argument is even or odd
  */
