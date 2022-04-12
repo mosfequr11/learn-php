@@ -1,21 +1,28 @@
 <?php
 require_once "../function/function.php";
-
-
-
+/**
+ * Fix a return type of a function
+ * 
+ */
+    echo '<h3>Fix a return type of a function</h3>';
+   //echo __FILE__ . ' : ' . __LINE__;
+    echo sumNumber(6,7.5,8);
+    
+    echo "<hr>";
+    echo "<br>";
 /**
  * Calculating Factorial Number
  * 
  */
-$j= '5 cup';
-$k= 'Tea';
-serveFood($k,$j);
-echo "<br>";
-serveFood('','2 Plates');
-echo "<br>";
-serveFood('Rice','2 Plates');
-echo "<br>";
-serveFood('Rice');
+    $j= '5 cup';
+    $k= 'Tea';
+    serveFood($k,$j);
+    echo "<br>";
+    serveFood('','2 Plates');
+    echo "<br>";
+    serveFood('Rice','2 Plates');
+    echo "<br>";
+    serveFood('Rice');
 
 echo "<hr>";
 echo "<br>";

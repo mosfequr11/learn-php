@@ -69,3 +69,14 @@ function isFactorial(int $a)
 function serveFood($foodType="coffee",$numberOfItems="2 cup"){
  echo "{$numberOfItems} of {$foodType} has been served";
 }
+
+
+/**
+ * Fix the return Type of a Function
+ * Set  parameter Type
+ * sumNumber() function
+ */
+function sumNumber(int $x,int $y,int $z){
+    $sum=$x+$y+$z;
+    return $sum;
+}
